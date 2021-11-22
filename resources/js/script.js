@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     $("#btnLanding").on("click", function() {
         $("#SectionOne").hide();
-        $("#SectionTwo").hide();
+        $("#SectionTwo").show();
     })
 
     $("#idHome").on("click", function() {
@@ -14,6 +14,7 @@ $(document).ready(function() {
 });
 
 function actionPage() {
+
 
 
 
